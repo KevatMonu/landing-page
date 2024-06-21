@@ -1,0 +1,250 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Gillroy;
+}
+html ,body{
+    width: 100%;
+    height: 100%;
+}
+
+.main{
+    width: 100%;
+    height: 100%;
+}
+.top{
+    width: 100%;
+    height: 56%;
+    background-image: url(asset/nicole-mason-cv_fqvrbKWs-unsplash\ \(1\).jpg);
+    background-size: cover;
+    background-position: top;
+}
+
+.top-line{
+    height: 4%;
+    width: 100%;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    gap: 0.18rem;
+    font-size: 0.62rem;
+    padding-left: 1.31rem;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 62.5rem;
+    padding-top: 1.68rem;
+}
+.logo{
+    height: 2.18rem;
+    width: 2.18rem;
+    border-radius: 50%;
+    background-color: orangered;
+    position: relative;
+}
+
+.logo i{
+    position: absolute;
+    top: 0.5rem;
+    left: 0.56rem;
+    font-weight: 900;
+}
+.logo p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.56rem;
+    font-weight: 900;
+    padding: 0rem;
+    font-family: sans-serif;
+    color: #fff;
+}
+.nav2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.25rem;
+}
+
+.content{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 40px;
+    margin-top: 90px;
+}
+
+.content h1{
+    font-family: sans-serif;
+    font-size: 5.93rem;
+    color: #fff;
+    font-weight: 500;
+}
+.p1, .p2{
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    font-size: 0.9rem;
+}
+
+.social{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social i{
+    font-size: 2rem;
+    padding-right: 15px;
+    color: white;
+}
+
+.text{
+    margin-bottom: 6px;
+}
+.bottom{
+    width: 100%;
+    height: 40%;
+    display: flex;
+}
+
+.one{
+    width: 20%;
+    height: 100%;
+}
+
+.one h6{
+    color: #747474;
+    font-size: 1rem;
+    font-weight: 400;
+    margin-bottom: 0.75rem;
+}
+.one h4 {
+    font-size: 1rem;
+    font-weight: 400;
+    margin-bottom: 1.56rem;
+}
+.cont{
+    margin: 2.5rem 3.12rem;
+}
+
+.cont i{
+    font-size: 1.37rem;
+    padding-right: 0.62rem;
+}
+.two{
+    width: 25%;
+    height: 100%;
+    background-image: url(https://www.innerleithenbikeshop.co.uk/wp-content/uploads/2022/04/Specialized-Mens-Trail-Wind-Jacket-4-scaled.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.two i{
+    font-size: 3.75rem;
+    color: white;
+    position: relative;
+    top: 30%;
+    left: 40%;
+}
+.three{
+    width: 25%;
+    height: 100%;
+}
+
+.thone{
+    width: 100%;
+    height: 50%;
+    background-color: red;
+    padding: 1.25rem 1.87rem;
+    font-size: 0.93rem;
+}
+
+#art{
+    margin-bottom: 0.81px;
+}
+.thtwo{
+    width: 100%;
+    height: 50%;
+    background-image: url(https://media.istockphoto.com/id/1456341806/photo/vibrant-butea-monosperma-flame-of-the-forest-flower-in-branches-commonly-known-as-palash-in.jpg?s=2048x2048&w=is&k=20&c=8n3Oi-rD_xQVHT3bRAHy4FPMZslhUecLY_7ABvlrr8g=);
+    background-position: center;
+    background-size: cover;
+}
+.four{
+    width: 30%;
+    height: 100%;
+    background-color: #1F1F1F;
+   position: relative;
+}
+
+.circle{
+    width:2.81rem;
+    height: 2.81rem;
+    border: 1px solid #434343;
+    border-radius: 50%;
+    background-image: url(asset/1585214522030.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+#circle1{
+    background-image: url(asset/20190728_175550.jpg);
+}
+
+.four-prt1 , .four-prt2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.four-prt2{
+    margin-top: 1.56rem;
+}
+.four h2{
+    font-size: 0.93rem;
+    color: #fff;
+    font-weight: 300;
+    width: 12.5rem;
+    margin-left: 0.68rem;
+}
+
+.four h1{
+    font-size: 1.06rem;
+    color: #fff;
+    font-weight: 400;
+    padding-bottom: 1.81rem;
+}
+
+.contain{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 2.06rem;
+    left: 5.62rem;
+}
+
+.four p{
+    font-size: 0.93rem;
+    color: #747474;
+    margin-left: 3.56rem;
+}
+
+.four-prt3{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 0.93rem;
+    
+}
+
+.dot i{
+     color: chocolate;
+     border: none;
+     font-size: 0.62rem;
+}
+
